@@ -1,0 +1,81 @@
+
+/*Main Style Sheet 
+Holly McCarthy Project 1
+udacity nanodegree */
+
+h1 {
+	font-family: "Special Elite", cursive;
+}
+h2 {
+	font-family: "Special Elite", cursive;
+}
+h3 {
+	font-family: "Special Elite", cursive;
+}
+body {
+	font-family: "Lato", sans-serif;
+}
+
+.flex {
+	display: flex;
+	display: -webkit-flex;
+}
+#heading {
+	padding-bottom: 10px;
+	border-bottom: 1px solid gray;
+	margin: auto;
+}
+#title-row {
+	text-align: right;
+	order: 1;
+}
+#logo {
+	order: 0;
+	margin-top: 20px;
+}
+#name {
+	text-align: right;	
+}
+#featured-work {
+	color: #333333;
+	margin-top: 15px;
+	margin-bottom: -15px;
+}
+#featured-row {
+	text-align: center;
+}
+#featured-row a {
+	font-size: 75%;
+	color: #333333;
+}
+#tt-logo {
+	
+}
+#main-image {
+	margin-top: 20px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+.foodtitle {
+	font-size: 2em;
+}
+
+/*media queries*/
+/*FOR XS DEVICES*/
+@media screen and (max-width: 480px) {
+	#title-row {
+		order: 0;
+		text-align: left;
+	}
+	#name {
+		text-align: left; 
+	}
+	#logo {
+		order: 1;
+	}
+	.foodtitle h3{
+		font-size: 2em;
+	}
+	}
+
